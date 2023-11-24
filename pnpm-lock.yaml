@@ -49,16 +49,16 @@ dependencies:
     version: 3.1.2
   knex:
     specifier: ~2.5.1
-    version: 2.5.1(mysql2@3.6.3)
+    version: 2.5.1(mysql2@3.6.5)
   limiter-es6-compat:
     specifier: ~2.1.2
     version: 2.1.2
   mysql2:
-    specifier: ~3.6.3
-    version: 3.6.3
+    specifier: ~3.6.5
+    version: 3.6.5
   redbean-node:
     specifier: ~0.3.3
-    version: 0.3.3(mysql2@3.6.3)
+    version: 0.3.3(mysql2@3.6.5)
   socket.io:
     specifier: ~4.7.2
     version: 4.7.2
@@ -3145,7 +3145,7 @@ packages:
       json-buffer: 3.0.1
     dev: true
 
-  /knex@2.4.2(mysql2@3.6.3):
+  /knex@2.4.2(mysql2@3.6.5):
     resolution: {integrity: sha512-tMI1M7a+xwHhPxjbl/H9K1kHX+VncEYcvCx5K00M16bWvpYPKAZd6QrCu68PtHAdIZNQPWZn0GVhqVBEthGWCg==}
     engines: {node: '>=12'}
     hasBin: true
@@ -3182,7 +3182,7 @@ packages:
       getopts: 2.3.0
       interpret: 2.2.0
       lodash: 4.17.21
-      mysql2: 3.6.3
+      mysql2: 3.6.5
       pg-connection-string: 2.5.0
       rechoir: 0.8.0
       resolve-from: 5.0.0
@@ -3192,7 +3192,7 @@ packages:
       - supports-color
     dev: false
 
-  /knex@2.5.1(mysql2@3.6.3):
+  /knex@2.5.1(mysql2@3.6.5):
     resolution: {integrity: sha512-z78DgGKUr4SE/6cm7ku+jHvFT0X97aERh/f0MUKAKgFnwCYBEW4TFBqtHWFYiJFid7fMrtpZ/gxJthvz5mEByA==}
     engines: {node: '>=12'}
     hasBin: true
@@ -3229,7 +3229,7 @@ packages:
       getopts: 2.3.0
       interpret: 2.2.0
       lodash: 4.17.21
-      mysql2: 3.6.3
+      mysql2: 3.6.5
       pg-connection-string: 2.6.1
       rechoir: 0.8.0
       resolve-from: 5.0.0
@@ -3546,8 +3546,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: false
 
-  /mysql2@3.6.3:
-    resolution: {integrity: sha512-qYd/1CDuW1KYZjD4tzg2O8YS3X/UWuGH8ZMHyMeggMTXL3yOdMisbwZ5SNkHzDGlZXKYLAvV8tMrEH+NUMz3fw==}
+  /mysql2@3.6.5:
+    resolution: {integrity: sha512-pS/KqIb0xlXmtmqEuTvBXTmLoQ5LmAz5NW/r8UyQ1ldvnprNEj3P9GbmuQQ2J0A4LO+ynotGi6TbscPa8OUb+w==}
     engines: {node: '>= 8.0'}
     dependencies:
       denque: 2.1.0
@@ -3977,14 +3977,14 @@ packages:
       resolve: 1.22.8
     dev: false
 
-  /redbean-node@0.3.3(mysql2@3.6.3):
+  /redbean-node@0.3.3(mysql2@3.6.5):
     resolution: {integrity: sha512-0J59/QlShdWs1h0lsFHRfb8NwjvgIYTQKwYrvq6FykRmeX1cG2u8AgHEIRVBrm56mtKLRASVy/8ykk6fSntLdw==}
     dependencies:
       '@types/node': 20.3.3
       await-lock: 2.2.2
       dayjs: 1.11.10
       glob: 10.3.10
-      knex: 2.4.2(mysql2@3.6.3)
+      knex: 2.4.2(mysql2@3.6.5)
       lodash: 4.17.21
     transitivePeerDependencies:
       - better-sqlite3
