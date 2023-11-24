@@ -24,8 +24,8 @@ dependencies:
     specifier: ~6.1.0
     version: 6.1.0
   composerize:
-    specifier: ~1.4.1
-    version: 1.4.1
+    specifier: ~1.5.0
+    version: 1.5.0
   croner:
     specifier: ~7.0.5
     version: 7.0.5
@@ -1627,13 +1627,6 @@ packages:
     dev: false
     optional: true
 
-  /argparse@1.0.10:
-    resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
-    requiresBuild: true
-    dependencies:
-      sprintf-js: 1.0.3
-    dev: false
-
   /argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
@@ -1956,15 +1949,23 @@ packages:
     resolution: {integrity: sha512-LNZQXhqUvqUTotpZ00qLSaify3b4VFD588aRr8MKFw4CMUr98ytzCW5wDH5qx/DEY5kCDXcbcRuCqL0szEf2tg==}
     dev: false
 
-  /composerize@1.4.1:
-    resolution: {integrity: sha512-63bKZMgOE8Fd6jBSmkZFdOtKM5A46TafrWgNHVXIBfTu/YBBZw91xkjALG3JiuOatX4tMK04uM37O4HGypnkfQ==}
+  /composerize@1.5.0:
+    resolution: {integrity: sha512-rj+0FgBgrtHjEfNSdh0pFR8Yduvd/66ofraS+XxY6uLnls5FMZ7yOpwrq1d47m4Xo68aB3O0JVvCFJ5+iHjM2Q==}
     hasBin: true
     dependencies:
+      composeverter: 1.1.0
       core-js: 2.6.12
       deepmerge: 2.2.1
       invariant: 2.2.4
-      yamljs: 0.3.0
+      yaml: 1.10.2
       yargs-parser: 13.1.2
+    dev: false
+
+  /composeverter@1.1.0:
+    resolution: {integrity: sha512-LJ2qgM+nmeLtoqftHudCKRKDeiUwu6/9WyG+tTp/ufTwWKXDnk8cgvR+/kDQFe4ZS3QCPiKxLl9GXAQ/27TM/Q==}
+    dependencies:
+      core-js: 2.6.12
+      yaml: 1.10.2
     dev: false
 
   /concat-map@0.0.1:
@@ -4317,11 +4318,6 @@ packages:
     resolution: {integrity: sha512-eWN+LnM3GR6gPu35WxNgbGl8rmY1AEmoMDvL/QD6zYmPWgywxWqJWNdLGT+ke8dKNWrcYgYjPpG5gbTfghP8rw==}
     dev: true
 
-  /sprintf-js@1.0.3:
-    resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
-    requiresBuild: true
-    dev: false
-
   /sqlstring@2.3.3:
     resolution: {integrity: sha512-qC9iz2FlN7DQl3+wjwn3802RTyjCx7sDvfQEXchwa6CWOx07/WVfh91gBmQ9fahw8snwGEWU3xGzOt4tFyHLxg==}
     engines: {node: '>= 0.6'}
@@ -4939,18 +4935,14 @@ packages:
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
+  /yaml@1.10.2:
+    resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
+    engines: {node: '>= 6'}
+    dev: false
+
   /yaml@2.3.4:
     resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
     engines: {node: '>= 14'}
-    dev: false
-
-  /yamljs@0.3.0:
-    resolution: {integrity: sha512-C/FsVVhht4iPQYXOInoxUM/1ELSf9EsgKH34FofQOp6hwCPrW4vG4w5++TED3xRUo8gD7l0P1J1dLlDYzODsTQ==}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      argparse: 1.0.10
-      glob: 7.2.3
     dev: false
 
   /yargs-parser@13.1.2:
